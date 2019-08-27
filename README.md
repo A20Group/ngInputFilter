@@ -18,6 +18,7 @@ Any Values Are Allowed But Returns Valid/InValid Status And Synced With Ng-Messa
 
 
 [![npm](https://img.shields.io/npm/v/ng-input-filter?style=flat-square)](https://www.npmjs.com/package/ng-input-filter)
+
 To install ngInputFilterNumber use npm
 ```
 npm install ng-input-filter --save
