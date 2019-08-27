@@ -1,4 +1,4 @@
-class ngInputFilterAlphabetbetClass {
+class ngInputFilterAlphabetClass {
     constructor() {
         this.require = 'ngModel',
         this.restrict = 'A'
@@ -35,8 +35,15 @@ class ngInputFilterAlphabetbetClass {
             };
         }
 
-        if (type == "persianEnglishNumber") {
+        if (type == "persianWithEnglishNumber") {
             let regex = /^[\u0600-\u06FF0-9\s]+$/;
+            ngModelCtrl.$validators.inputFilterAlphabet = function (value) {
+                return regex.test(value);
+            };
+        }
+
+        if (type == "persianAndEnglishAlphabet") {
+            let regex = /^[\u0600-\u06EF\u06FA-\u06FFa-z\s]+$/;
             ngModelCtrl.$validators.inputFilterAlphabet = function (value) {
                 return regex.test(value);
             };

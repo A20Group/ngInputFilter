@@ -102,13 +102,19 @@ ng-input-filter-alphabet="persian">
  5. Persian With English Number:
  ```html
 <input type="text" ng-model="self.myModel"
-ng-input-filter-alphabet="persianEnglishNumber">
+ng-input-filter-alphabet="persianWithEnglishNumber">
+```
+
+ 6. Persian And English Alphabet:
+ ```html
+<input type="text" ng-model="self.myModel"
+ng-input-filter-alphabet="persianAndEnglishAlphabet">
 ```
 
 When you Want To Handle Error Text Messages With Ng-Messages
  ```html
 <div ng-messages="formName.inputName.$error">
-<div ng-message="inputFilterAlpha">
+<div ng-message="inputFilterAlphabet">
 	Your Text For Invalid
 </div>
 </div>
