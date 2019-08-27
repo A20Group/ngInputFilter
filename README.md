@@ -58,7 +58,7 @@ ng-input-filter-number="uint">
  2. Integer (positive and <= 500):
  ```html
 <input type="text" ng-model="self.myModel"
-ng-input-filter-number="float" long-int="80">
+ng-input-filter-number="longInt" long-int="80">
 ```
 
  3. Integer (both positive and negative):
