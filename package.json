@@ -3,10 +3,10 @@
   "version": "0.6.5",
   "description": "Input Filter library (Number & Alphabet For Persian & English Language) For AngularJS",
   "license": "MIT",
-  "repository": "A20Group/ngInputFilter",
+  "repository": "abdollahzadehghalejoghi/ngInputFilter",
   "author": "AmirHossein Abdollahzadeh",
-  "homepage": "https://github.com/A20Group/ngInputFilter",
-  "bugs": "https://github.com/A20Group/ngInputFilter/issues",
+  "homepage": "https://github.com/abdollahzadehghalejoghi/ngInputFilter",
+  "bugs": "https://github.com/abdollahzadehghalejoghi/ngInputFilter/issues",
   "main": "src/ngInputFilter.js",
   "engines": {
     "node": ">= 4.4.0"
