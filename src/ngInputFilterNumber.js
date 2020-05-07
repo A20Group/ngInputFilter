@@ -13,9 +13,11 @@ class ngInputFilterNumberClass {
                         this.oldValue = this.value;
                         this.oldSelectionStart = this.selectionStart;
                         this.oldSelectionEnd = this.selectionEnd;
+                        ngModelCtrl.$setViewValue(this.oldValue);
                     } else if (this.hasOwnProperty("oldValue")) {
                         this.value = this.oldValue;
                         this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+                        ngModelCtrl.$setViewValue(this.value);
                     }
                     // ngModelCtrl.$validators.inputFilterNumber = function () {
                     //     return result;
