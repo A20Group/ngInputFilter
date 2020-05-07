@@ -1,6 +1,6 @@
 {
   "name": "ng-input-filter",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "Input Filter library (Number & Alphabet For Persian & English Language) For AngularJS",
   "license": "MIT",
   "repository": "A20Group/ngInputFilter",
